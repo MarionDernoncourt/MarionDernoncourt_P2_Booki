@@ -1,0 +1,161 @@
+/* new font definition named Raleway */
+@font-face {
+  font-family: "Raleway";
+  src: url("assets/raleway/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway_semibold";
+  src: url("assets/raleway/Raleway-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway_bold";
+  src: url("assets/raleway/Raleway-ExtraBold.ttf") format("truetype");
+}
+
+/* page main elements */
+body {
+  background: none;
+  font-family: "Raleway";
+  color: black;
+}
+
+#bloc_page {
+  width: 100%;
+  margin: auto;
+}
+
+/* header settings */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+nav li {
+  margin: 15px;
+}
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-self: right;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#logo_reservia {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  align-items: flex-start;
+}
+nav a {
+  text-decoration: none;
+}
+#inscription {
+  color: #0065fc;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.nav-hosts a {
+  color: #0065fc !important;
+  text-decoration: none;
+  border-top: 1px solid #0065fc;
+  padding: 20px;
+}
+.nav-hosts:hover{
+    color: #0065fc;
+    text-decoration: none;
+}
+.nav-activities{
+    color: black;
+}
+.parent.loc
+{
+    display: flex;
+}
+#localisation_search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+}
+.fa-map-marker-alt {
+  display: inline-block;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px 0px 0px 30px;
+  background: #f2f2f2;
+  padding: 10px 10px 10px 10px;
+}
+.city {
+  display: inline-block;
+  margin-left: 15px;
+  padding: 10px 10px 10px 10px;
+  font-family: "Raleway_bold";
+  text-align: left;
+}
+.search {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #0065fc;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  border-radius: 0px 30px 30px 0px;
+}
+#filters {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  font-family: "Raleway_bold";
+}
+#filters ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.fa-money-bill-wave,
+.fa-dog,
+.fa-heart,
+.fa-child,
+.fa-info {
+  color: #0065fc;
+}
+.container-icon {
+  padding: 10px;
+  background: #deebff;
+  border-radius: 50px;
+}
+#filters li {
+  border-radius: 50px;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.filters-title {
+  margin: 0px 8px;
+}
+h1 {
+  font-family: "Raleway_bold";
+  font-weight: bold;
+  font-size: 1.6em;
+}
+h2 {
+  font-weight: unset;
+  font-size: 1.2em;
+}
+.fa-info{
+    border: 1px solid #f2f2f2;
+    border-radius: 50%;
+    padding: 10px 15px 10px 15px;
+}
