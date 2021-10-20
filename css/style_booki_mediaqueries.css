@@ -1,0 +1,73 @@
+/* tablette portrait */
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  nav {
+    width: 100%;
+  }
+  nav li {
+    width: 50%;
+    text-align: center;
+    padding: 16px;
+  }
+  nav ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  nav {
+    border-bottom: 1px solid #f2f2f2;
+  }
+  nav li:hover {
+    border-bottom: black;
+  }
+  .nav_hosts:hover,
+  .nav_activities:hover {
+    border-bottom: 1px solid #0065fc;
+  }
+  .nav_hosts a:hover,
+  .nav_activities a:hover {
+    border-top: none;
+  }
+  h1,
+  h2 {
+    text-align: left;
+  }
+  p {
+    display: flex;
+  width: 100%;}
+  .search {
+      display: none;
+  }
+  .fa-search {
+      display: inline;
+      padding: 15px;
+      background: #0065fc;
+      border-radius: 15px;
+      color: white;
+      border: none;
+      width: 10%;
+  }
+  .fa-map-marker {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 10%;
+  }
+  .city {
+      width: 80%;
+  }
+  
+ 
+}
+
+/* tablette paysage */
+
+/* smartphone portrait */
+
+/* smartphone paysage */

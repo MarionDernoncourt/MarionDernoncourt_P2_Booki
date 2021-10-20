@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/f9068927a2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/style_booki.css" />
+    <link rel="stylesheet" href="css/style_booki_mediaqueries.css" />
+    <title>Booki</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo_booki">
+        <img src="assets/images/logo/Booki.png" alt="picture_logo" />
+      </div>
+
+      <nav>
+        <div id="menu">
+          <ul id="navigation">
+            <li class="nav_hosts"><a href="#hosts">Hébergement</a></li>
+            <li class="nav_activities"><a href="#activities">Activités</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="booki">
+      <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+      <h2>En plein centre ville ou en plein nature</h2>
+    </div>
+    <div id="localisation_search">
+      <form method="post" action="traitement.php">
+        <p>
+          <i class="fas fa-map-marker-alt"></i>
+
+          <input
+            class="city"
+            type="search"
+            name="city"
+            value="Marseille, France"
+          />
+          <input class="search" type="submit" value="Rechercher" />
+          <input class="fas fa-search" type="submit" value="&#xf002;" />
+        </p>
+      </form>
+    </div>
+
+    <div id="filters">
+      <p>Filtres</p>
+      <div class="filters_list">
+        <div class="container_filters">
+          <div class="container_icon_money">
+            <i class="fas fa-money-bill-wave"></i>
+          </div>
+          <p class="filters_title">Économique</p>
+        </div>
+
+        <div class="container_filters">
+          <div class="container_icon_child">
+            <i class="fas fa-child"></i>
+          </div>
+          <p class="filters_title">Familial</p>
+        </div>
+
+        <div class="container_filters">
+          <div class="container_icon_heart">
+            <i class="fas fa-heart"></i>
+          </div>
+          <p class="filters_title">Romantique</p>
+        </div>
+
+        <div class="container_filters">
+          <div class="container_icon_dog"><i class="fas fa-dog"></i></div>
+          <p class="filters_title">Animaux autorisés</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
