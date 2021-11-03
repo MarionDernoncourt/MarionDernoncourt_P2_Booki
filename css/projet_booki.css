@@ -221,7 +221,7 @@ h3 {
 .city_hosts p {
   font-size: 25px;
   font-weight: 500;
-}
+}m
 
 .container_hosts {
   width: 30%;
@@ -470,11 +470,11 @@ footer {
   font-size: 17px;
   margin: 0px;
 }
-a {
+footer a {
   text-decoration: none;
   color: black;
 }
-a:hover {
+footer a:hover {
   font-family: "Raleway";
   font-weight: 500;
 }
