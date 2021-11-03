@@ -1,0 +1,256 @@
+/********* HEADER **********/
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0px ;
+  }
+  #logo992px {
+    display: none;
+  }
+  #logo768px {
+    display: initial;
+  }
+
+  nav {
+    width: 100%;
+  }
+  nav li {
+    text-align: center;
+    font-size: 5vw;
+    padding: 0%;
+    padding-bottom: 15px;
+    width: 50%;
+    border-bottom: 3px solid #f2f2f2;
+  }
+  nav li:hover {
+    border-bottom: 3px solid #0065fc;
+  }
+  nav ul {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .nav_hosts a:hover,
+  .nav_activities a:hover {
+    border-top: none;
+  }
+  #booki h1 {
+    font-size: 7vw;
+  }
+  #booki h2 {
+    font-size: 5vw;
+  }
+  p {
+    display: flex;
+  }
+
+
+  /******************** LAYOUT SEARCH ************************/
+
+  #localisation_search p {
+    height: 18vw;
+  }
+  .search {
+    display: none;
+  }
+  .fa-search {
+    display: inline;
+    padding: 15px;
+    background: #0065fc;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    width: 20%;
+    font-size: 1.5em;
+  }
+  .fa-map-marker-alt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-size: 1.5em;
+  }
+  .city {
+    width: 80%;
+    font-size: 5vw;
+    padding: 0% 6%;
+  }
+  /****************** LAYOUT FILTERS ***************************/
+  #filters {
+    flex-wrap: wrap;
+    font-size: 30px;
+  }
+  #filters p {
+    font-size: 5vw;
+  }
+  .filters_title {
+    margin: 0px 10px;
+    font-weight: 500;
+  }
+
+  #filters li {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 5vw;
+    font-weight: 500;
+  }
+  .container_icon {
+    padding: 12px;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  .fa-info {
+    font-size: 1.5em;
+  }
+  /************************* LAYOUT HOSTS RESULTST ***********************/
+  .hosts {
+    flex-direction: column-reverse;
+  }
+  .city_hosts,
+  .most_popular {
+    width: 100%;
+  }
+  .city_hosts {
+    padding: 0px;
+    background: transparent;
+  }
+  .hosts_results {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0px;
+    padding: 20px;
+  }
+  .most_popular {
+    border-radius: 0%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .container_popular_hosts {
+    height: 40vw;
+    padding: 2px;
+    margin: 20px;
+  }
+  .fa-chart-line {
+    margin-right: 20px;
+  }
+
+  .container_popular_hosts img {
+    height: 100%;
+  }
+  .container_popular_hosts .picture_hosts {
+    width: 40%;
+  }
+  .container_popular_hosts .info_popular_hosts {
+    width: 60%;
+  }
+
+  #popular_title h2,
+  .city_hosts h2 {
+    font-size: 7vw;
+    padding: 0px;
+    margin: 20px;
+  }
+  .general_info_hosts h3,
+  .info_hosts h3 {
+    font-size: 5vw;
+    font-weight: 600;
+  }
+
+  .general_info_hosts p,
+  .info_hosts p {
+    font-size: 4vw;
+  }
+
+  .hosts_results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container_hosts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-shadow: 0px 0px 15px#f2f2f2;
+    height: 55vw;
+    width: 99%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .container_hosts .picture_hosts {
+    height: 60%;
+  }
+  .container_hosts .picture_hosts img {
+    height: 100%;
+  }
+  .container_hosts .info_hosts {
+    height: 40%;
+  }
+  .rate_hosts {
+    font-size: 5vw;
+  }
+  
+
+  /*********** laytout activitites **************/
+
+  /******************** LAYOUT SECTION ACTIVITIES ************************/
+
+  .activities {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .container_activities {
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 20px 20px 20px;
+  }
+  .list_activities h2 {
+    font-size: 7vw;
+  }
+  .activity1,
+  .activity2 {
+    width: auto;
+    margin: 0px;
+  }
+  .container_activities img {
+    height: 75%;
+  }
+  .container_activities h3 {
+    height: 25%;
+    font-size: 5vw;
+    font-weight: 600;
+  }
+
+  /*************** LAYOUT FOOTER *************/
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .container_footer {
+      width: 100%;
+  }
+  .container_footer h4 {
+    font-size: 4vw;
+  }
+  .container_footer a {
+    font-size: 3vw;
+  }
+ 
+}
